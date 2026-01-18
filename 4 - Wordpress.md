@@ -160,6 +160,32 @@ weevely generate pass123 shell.php
 
 ```bash
 # Se ottieni accesso al server → dump credenziali MySQL
-cat wp-config.php | grep DB_
+
+## Struttura WP
+
+```bash
+tree -L 1 /var/www/html
+.
+├── index.php
+├── license.txt
+├── readme.html
+├── wp-activate.php
+├── wp-admin
+├── wp-blog-header.php
+├── wp-comments-post.php
+├── wp-config.php
+├── wp-config-sample.php
+├── wp-content
+├── wp-cron.php
+├── wp-includes
+├── wp-links-opml.php
+├── wp-load.php
+├── wp-login.php
+├── wp-mail.php
+├── wp-settings.php
+├── wp-signup.php
+├── wp-trackback.php
+└── xmlrpc.php
+
 ```
 
